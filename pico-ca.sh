@@ -1,10 +1,10 @@
 #!/bin/sh
 ######################################################################
 # Pico CA : The script of very small Certification Authority.
-# Copyright (C) 2014-2016 KAMOME Engineering, Inc. All Rights Reserved.
+# Copyright (C) 2014-2024 KAMOME Engineering, Inc. All Rights Reserved.
 #               This program is distributed under the MIT license.
 
-KEYLEN=2048
+KEYLEN=3072
 CA_CERT=ca.crt
 CA_KEY=ca.key
 CA_CN="KAMOME PicoCA `date +%Y%m%d%H%M%S`"
